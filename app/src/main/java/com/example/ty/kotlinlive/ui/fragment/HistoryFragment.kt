@@ -48,6 +48,8 @@ class HistoryFragment : Fragment() {
                     setUpRecyclerView(parseHtml(it.string()))
                 }, {}, {})
 
+
+
     }
 
     private fun setUpRecyclerView(parseHtml: List<History>) {

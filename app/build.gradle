@@ -5,6 +5,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
+        multiDexEnabled  true
         applicationId "com.example.ty.kotlinlive"
         minSdkVersion 23
         targetSdkVersion 25
